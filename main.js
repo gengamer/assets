@@ -5,6 +5,7 @@
         top: 0;
         left: 0;
         height: 2.6px;
+        background: #0076ff;
         z-index: 2147483647;
         transition:
           width ${ProgressBar.animationDuration}ms ease-out,
