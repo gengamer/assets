@@ -48,7 +48,7 @@
                         .then(response => response.text())
                         .then(htmlString => {
                             const htmlDOM = parser.parseFromString(htmlString, 'text/html');
-                            const ogImage = htmlDOM.querySelector('meta[property="og:image"]');
+                            const ogImage = htmlDOM.querySelector('meta[property="og:image:url"]');
                             const ogImageURL = ogImage ? ogImage.getAttribute('content') : 'No image available';
 
                             // Create a div to display the title and og:image URL
