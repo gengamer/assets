@@ -5,7 +5,7 @@
         top: 0;
         left: 0;
         height: 3px;
-        background: #2979ff;
+        background: repeating-linear-gradient(to right, rgb(0, 220, 130) 0%, rgb(52, 205, 254) 50%, rgb(0, 71, 225) 100%);
         z-index: 2147483647;
         transition:
           width ${ProgressBar.animationDuration}ms ease-out,
