@@ -1,2 +1,2 @@
-# Redirects from what the browser requests to what we serve
-/home              https://genshin-countdown.gengamer.in
+# Redirect with a 301
+/home         /              301
